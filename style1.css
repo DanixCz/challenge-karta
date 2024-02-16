@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(37, 37, 37);
+}
+.container{
+    position: relative;
+    max-width: 1900px;
+    margin: auto;
+
+}
+.karta{
+    color: white;
+    background: linear-gradient(to top left, #3535355b, #86868650);
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    border-style: solid solid none none;
+    border-color: rgba(128, 128, 128, 0.466);
+    margin-top: 300px;
+    z-index: 10;
+    backdrop-filter: blur(20px);
+    left: 700px;
+} 
+
+.koule1{
+    position: absolute;
+    background: linear-gradient(to top left, #5200FF, #d060f8);
+    padding: 110px;
+    border-radius: 50%;
+    left: 590px;
+    top: 480px;
+    z-index: 1;
+}
+
+.koule2{
+    position: absolute;
+    background: linear-gradient(to top right, #d060f8, #5200FF);
+    padding: 160px;
+    border-radius: 50%;
+    left: 1000px;
+    top: 170px;
+    z-index: 1;
+}
+
+.minikoule{
+    position: absolute;
+    left: 10px;
+}
+.text1{
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 35px;
+    text-align: left;
+
+}
+.text2{
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 11px;
+    text-align: left;
+
+}
+.text3{
+    position: absolute;
+    left: 20px;
+    top: 160px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+
+}
+.text4{
+    position: absolute;
+    left: 20px;
+    top: 220px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.text5{
+    position: absolute;
+    left: 20px;
+    top: 234px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 13px;
+    text-align: left;
+
+}
+.text6{
+    position: absolute;
+    left: 20px;
+    top: 500px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0.365em;
+    text-align: center;
+
+}
+
+.wifi{
+    position: absolute;
+    left: 430px;
+}
+
